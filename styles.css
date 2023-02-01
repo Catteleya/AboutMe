@@ -1,12 +1,10 @@
-body, * {
-    font-family: "Montserrat", sans-serif;
-}
-
   html,
   body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+    background-color: #4a4f4c;
   }
   
 badge {
@@ -17,10 +15,7 @@ badge {
   border-radius: 5px;
 }
 
-  h1,
-  h2,
-  h3,
-  h4 {
+  * {
     font-weight: bold;
   }
   
