@@ -1,7 +1,8 @@
 summary, details {
   background-color: red;
   color: black;
-  padding: 8px;
+  padding: 4px 8px;
+  border-radius: 5px;
   text-align: left;
 }
 
