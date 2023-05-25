@@ -1,4 +1,11 @@
-  section,
+summary, details {
+  background-color: red;
+  color: black;
+  padding: 8px;
+  text-align: left;
+}
+
+section,
   html,
   body {
     padding: 0;
