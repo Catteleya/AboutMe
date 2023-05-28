@@ -11,7 +11,7 @@
 </style>
 <body>
   <header>
-    <h1>Bot Pricing</h1>
+    <h1>Bot Pricing <button onclick="toggleDarkMode()">Toggle Dark Mode</button></h1>
   </header>
 
   <section id="pricing">
@@ -63,5 +63,11 @@
   <footer>
     <p>&copy; 2023 Catteleya | Code-Assist. All rights reserved.</p>
   </footer>
+    <script>
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+        }
+    </script>
 </body>
 </html>
