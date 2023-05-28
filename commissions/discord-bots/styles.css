@@ -82,12 +82,17 @@ h2 {
   transition: transform 0.3s ease;
 }
 
-.pricing-card:hover {
-  transform: translateY(-5px);
+.dark-mode pricing-card{
+  background-color: #222;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.pricing-card details {
-  cursor: pointer;
+.pricing-card:hover {
+  transform: translateY(-5px);
 }
 
 .pricing-card summary {
@@ -96,10 +101,22 @@ h2 {
   color: #333;
 }
 
+.dark-mode pricing-card summary {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
 .pricing-card p {
   margin: 0;
   line-height: 1.6;
   color: #555;
+}
+
+.dark-mode pricing-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #fff;
 }
 
 footer {
