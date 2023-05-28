@@ -1,11 +1,17 @@
-summary, details {
+summary {
   background-color: red;
   color: black;
   padding: 4px 8px;
   border-radius: 5px;
   text-align: left;
 }
-
+details {
+  background-color: black;
+  color: red;
+  padding: 4px 8px;
+  border-radius: 5px;
+  text-align: left;
+}
 section,
   html,
   body {
