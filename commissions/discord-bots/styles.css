@@ -9,6 +9,11 @@ body {
   cursor: -webkit-grab; cursor: grab;
 }
 
+.dark-mode {
+   background-color: #222;
+   color: #fff;
+}
+
 * {
   cursor: -webkit-grab; cursor: grab;
 }
