@@ -9,7 +9,7 @@ body {
   cursor: -webkit-grab; cursor: grab;
 }
 
-*:hover {
+* {
   cursor: -webkit-grab; cursor: grab;
 }
 
