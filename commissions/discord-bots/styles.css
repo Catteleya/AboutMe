@@ -6,6 +6,15 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f7f7f7;
+  cursor: -webkit-grab; cursor: grab;
+}
+
+body:hover {
+  cursor: -webkit-grab; cursor: grab;
+}
+
+body:active {
+  cursor: -webkit-grabbing; cursor: grabbing;
 }
 
 header {
