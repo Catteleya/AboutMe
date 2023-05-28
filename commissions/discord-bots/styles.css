@@ -9,11 +9,11 @@ body {
   cursor: -webkit-grab; cursor: grab;
 }
 
-body:hover {
+*:hover {
   cursor: -webkit-grab; cursor: grab;
 }
 
-body:active {
+*:active {
   cursor: -webkit-grabbing; cursor: grabbing;
 }
 
