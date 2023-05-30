@@ -21,6 +21,11 @@ body {
    border-radius: 5px;
 } 
 
+.dark-mode footer {
+ background-color: #222;
+ color: #fff;
+}
+
 button {
    background-color: #f00;
    color: #fff;
